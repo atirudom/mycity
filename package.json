@@ -1,15 +1,24 @@
 {
-  "name": "Elastic-Beanstalk-Sample-App",
-  "version": "0.0.1",
-  "private": true,
-  "dependencies": {
-    "aws-sdk": "latest",
-    "body-parser": "^1.19.0",
-    "ejs": "latest",
-    "express": "^4.17.1"
-  },
+  "name": "reactexpress",
+  "version": "1.0.0",
+  "description": "Starter kit for creating React and Express apps",
+  "main": "server.js",
   "scripts": {
-    "start": "node appzasdasd.js",
-    "dev": "node app.js"
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.14.6"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.539.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^3.5.1",
+    "express": "^4.17.1"
   }
 }
