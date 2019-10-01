@@ -1,0 +1,15 @@
+{
+  "name": "Elastic-Beanstalk-Sample-App",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "latest",
+    "body-parser": "^1.19.0",
+    "ejs": "latest",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node appzasdasd.js",
+    "dev": "node app.js"
+  }
+}
