@@ -37,24 +37,28 @@ if (cluster.isMaster) {
   const app = express();
 
   app.use(bodyParser.urlencoded({ extended: false }));
+  app.use(require("body-parser").json())
 
   app.get('/api/customers', (req, res) => {
     const customers = [
       { id: 1, firstName: 'John', lastName: 'Doe' },
       { id: 2, firstName: 'Brad', lastName: 'Traversy' },
-      { id: 3, firstName: 'Mary', lastName: 'Swanson' },
+      { id: 3, firstName: 'Mary', lastName: 'SwansonLocalServer' },
     ];
 
     res.json(customers);
   });
 
   app.post('/signup', function (req, res) {
+    console.log(req.body)
     var item = {
       'email': { 'S': req.body.email },
       'name': { 'S': req.body.name },
       'preview': { 'S': req.body.previewAccess },
       'theme': { 'S': req.body.theme }
     };
+
+    console.log("NAME: ", item.name)
 
     ddb.putItem({
       'TableName': ddbTable,
