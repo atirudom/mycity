@@ -10,7 +10,7 @@ class Customers extends Component {
   }
 
   componentDidMount() {
-    fetch('/api/customers')
+    fetch('http://tutorials-env-1.vgpdkpkjze.us-west-2.elasticbeanstalk.com/api/customers')
       .then(res => res.json())
       .then(customers => this.setState({customers}, () => console.log('Customers fetched...', customers)));
   }

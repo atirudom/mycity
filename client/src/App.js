@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Customers from './components/customers';
-import Test from './components/test';
+import IndexPage from './pages/index'
+import CreateMarkerPage from './pages/createMarker'
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 class App extends Component {
+  componentDidMount() {
+    document.title = "My City"
+  }
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">React Express Starter</h1>
-        </header>
-        <Customers />
-        <Test />
-      </div>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={IndexPage} />
+          <Route exact path="/create" component={CreateMarkerPage} />
+        </Switch>
+      </Router>
     );
   }
 }

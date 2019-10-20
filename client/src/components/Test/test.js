@@ -37,16 +37,8 @@ class Test extends Component {
 
     console.log(data)
 
-    // axios.post("/signup", data, config)
-    //   .then(response => {
-    //     console.log(response)
-    //   })
-    //   .catch(error => {
-    //     console.log(error)
-    //   })
 
-
-    fetch("/signup", {
+    fetch("http://tutorials-env-1.vgpdkpkjze.us-west-2.elasticbeanstalk.com/signup", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
