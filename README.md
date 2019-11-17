@@ -1,6 +1,5 @@
 # My City
 This project is an example of Google Maps location service for specific community.
-The project aims to serve as personal portfolio.
 
 ### Main dependencies
 * [Express.js](https://github.com/expressjs/express) - Node.js framework for backend computing
@@ -15,3 +14,21 @@ The cloud services used in this project are
 
 ### Styling framework
 * Ant Design
+
+### Running the app
+
+Install all dependencies and run the app (dev. mode)
+The maps will not work in the application since the existing Google Maps API is not valid anymore.
+
+```
+npm install
+npm run dev
+```
+
+## Acknowledgments
+
+* The project aims to serve personal portfolio for skills in web development with Javascript, React, Express, and Cloud services.
+* I started developing this application from zero knowledge in cloud services and it took only 2 days to finish development. (Finished October 20, 2019)
+
+## Signature
+Created by [atirudom](https://github.com/atirudom)
