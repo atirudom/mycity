@@ -8,9 +8,11 @@ This project is an example of Google Maps location service for specific communit
 
 ### Cloud Services
 The cloud services used in this project are
-* AWS Elastic Beanstalk
-* AWS DynamoDB
-* Google Maps Platform
+* AWS Elastic Beanstalk - Backend API deployment
+* AWS S3 - Client application deployment
+* AWS DynamoDB - NoSQL database
+* AWS SNS - Notification service
+* Google Maps Platform - Maps and location service
 
 ### Styling framework
 * Ant Design
