@@ -20,7 +20,7 @@ The cloud services used in this project are
 ### Running the app
 
 Install all dependencies and run the app (dev. mode)
-The maps will not work in the application since the existing Google Maps API is not valid anymore.
+The maps and data fetching will not work in the application since the existing backend links are not valid anymore.
 
 ```
 npm install
