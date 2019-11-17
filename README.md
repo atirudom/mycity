@@ -15,7 +15,7 @@ The cloud services used in this project are
 * Google Maps Platform - Maps and location service
 
 ### Styling framework
-* Ant Design
+* [Ant Design](https://ant.design/) - a clean and minimalistic React UI template
 
 ### Running the app
 
