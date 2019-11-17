@@ -105,5 +105,5 @@ class MapsCreatePinBtn extends React.Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: 'AIzaSyBXMasJbjUDo0rtb3qZuuEaNKkhhkN7hbM'
+  apiKey: 'apiKey'
 })(MapsCreatePinBtn);
