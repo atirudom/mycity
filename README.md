@@ -1,5 +1,5 @@
 # My City
-This project is an example of Google Maps pinpoint location service for specific community. The repository aims to serve as personal portfolio representing skills in web development with Javascript, React, Express, and Cloud services.
+This is specific location announcement service for specific city using Google Maps. The repository aims to serve as personal portfolio representing skills in web development with Javascript, React, Express, and Cloud services.
 
 ### Main dependencies
 * [Express.js](https://github.com/expressjs/express) - Node.js framework for backend computing
