@@ -1,5 +1,5 @@
 # My City
-This project is an example of Google Maps location service for specific community. The repository aims to serve as personal portfolio representing skills in web development with Javascript, React, Express, and Cloud services.
+This project is an example of Google Maps pinpoint location service for specific community. The repository aims to serve as personal portfolio representing skills in web development with Javascript, React, Express, and Cloud services.
 
 ### Main dependencies
 * [Express.js](https://github.com/expressjs/express) - Node.js framework for backend computing
@@ -29,8 +29,8 @@ npm run dev
 
 ## Acknowledgments
 
-* The repository aims to serve as personal portfolio representing skills in web development with Javascript, React, Express, and Cloud services.
-* I started developing this application from zero knowledge in cloud services and it took only 2 days to finish development. (Finished October 20, 2019)
+* The repository was for learning purpose and now aims to serve as personal portfolio representing skills in web development with Javascript, React, Express, and Cloud services.
+* Started from zero knowledge in cloud services, took 2 days to complete development. (Finished October 20, 2019)
 
 ## Signature
 Created by [atirudom](https://github.com/atirudom)
